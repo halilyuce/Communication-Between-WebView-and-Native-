@@ -14,6 +14,7 @@
 		2F0A600B24190C1F00864A12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F0A600A24190C1F00864A12 /* Assets.xcassets */; };
 		2F0A600E24190C1F00864A12 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F0A600D24190C1F00864A12 /* Preview Assets.xcassets */; };
 		2F0A601124190C1F00864A12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F0A600F24190C1F00864A12 /* LaunchScreen.storyboard */; };
+		2F0A601924190CCD00864A12 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 2F0A601824190CCD00864A12 /* index.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		2F0A600D24190C1F00864A12 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2F0A601024190C1F00864A12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F0A601224190C1F00864A12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F0A601824190CCD00864A12 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				2F0A601224190C1F00864A12 /* Info.plist */,
 				2F0A600524190C1C00864A12 /* Web2Swift.xcdatamodeld */,
 				2F0A600C24190C1F00864A12 /* Preview Content */,
+				2F0A601824190CCD00864A12 /* index.html */,
 			);
 			path = Web2Swift;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F0A601124190C1F00864A12 /* LaunchScreen.storyboard in Resources */,
+				2F0A601924190CCD00864A12 /* index.html in Resources */,
 				2F0A600E24190C1F00864A12 /* Preview Assets.xcassets in Resources */,
 				2F0A600B24190C1F00864A12 /* Assets.xcassets in Resources */,
 			);

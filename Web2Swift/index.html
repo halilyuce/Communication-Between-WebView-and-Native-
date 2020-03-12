@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<h1 id="name">Model</h1>
+<p id="version">System Version</p>
+<input type="button" onclick="trigger()" value="Trigger">
+</body>
+<script>
+    function device(name, version) {
+        document.getElementById("name").innerHTML = name;
+        document.getElementById("version").innerHTML = version;
+    }
+    function trigger() {
+        window.webkit.messageHandlers.observer.postMessage("trigger from JS");
+    }
+</script>
+</html>
